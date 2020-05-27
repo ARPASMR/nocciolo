@@ -2,3 +2,6 @@ TEMP2m*.txt
 Tmin*.asc
 Tmed*.asc
 Tmax*.asc
+dati_mancanti
+lista.txt
+organizza_dati.sh
