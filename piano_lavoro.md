@@ -1,12 +1,12 @@
 1. Indici gelate su grigliato [30 maggio]
 
-    1.1 Ricalcoli necessari per T2m orarie 2002-2019 [23 maggio]
+    1.1 Ricalcoli necessari per T2m orarie 2002-2019 [30 maggio]
   
-    2.1 Archiviazione in tar.gz mensili [23 maggio]
+    2.1 Archiviazione in tar.gz mensili [6 giugno]
   
-    3.1 script R per elaborare minime, medie, massime gionaliere da archiviare in tar.gz annuali [30 maggio]
+    3.1 script R per elaborare minime, medie, massime gionaliere da archiviare in tar.gz annuali [6 giugno ]
   
-    4.1 script R per elaborare i dati Tmin e ottenere i 2 indici di gelate (2 grigliati) [30 maggio]
+    4.1 script R per elaborare i dati Tmin e ottenere i 2 indici di gelate (2 grigliati) [6 giugno]
   
   
   
