@@ -6,3 +6,6 @@ Dati ed elaborazioni per permettere:
     1. gelate invernali [inserire definizione esatta] [Tmin]
     2. gelate tardive [inserire definizione esatta] [Tmin]
 - il calcolo del deficit idrico mensile [Somma PP - Somma ET0]
+
+
+PROVA UTA
