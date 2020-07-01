@@ -28,6 +28,6 @@ values(gelate) <- values(gelate)+values(temporaneo)
 
 values(gelate)<-values(gelate)/numero_anni*100
 
-writeRaster(gelate, file="../gelate10.asc", format="ascii", overwrite=T)
+writeRaster(gelate, file="../indici/gelate10.asc", format="ascii", overwrite=T)
 
 q()
