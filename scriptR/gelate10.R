@@ -14,7 +14,7 @@ library(rgdal)
 cartella <- "../indici/"
 
 gelate <-raster(paste(cartella,"ggelo_2002.asc",sep=""))
-values(gelate)<-0
+values(gelate)[which(!is.na(values(gelate)))] <- 0
 names(gelate)<-"gelate-10"
 
 #qui mettere il ciclo
