@@ -27,7 +27,7 @@ names(somma)<-"somma"
 
 #elenco file da processare
 
-comando <- paste("ls -1 ",cartella,'Tmin',anno,'*.asc | grep "\\(01\\|02\\|12\\)..\\.asc"  -',sep="")
+comando <- paste("ls -1 ",cartella,'Tmin',anno,'*.asc | grep "\\(01\\|02\\|03\\|12\\)..\\.asc"  -',sep="")
 print(comando)
 nomefile <- readLines(pipe(comando))
 i<-1
