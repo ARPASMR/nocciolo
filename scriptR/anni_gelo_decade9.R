@@ -26,22 +26,16 @@ values(somma)[which(!is.na(values(ggelo)))] <- 0
 names(somma)<-"somma"
 
 #elenco file da processare
-stringa<-'\"' 
-print(stringa)
 
-cat(stringa)
-
-
-stringa<-"03\\(2\\|3\\).\\.asc"
-print(stringa)
-cat(stringa)
-pause()
-
-comando <- paste0("ls -1 ",cartella,"Tmin",anno,"*.asc | grep '03\(2\|3\).\.asc'",sep="")
+comando <- paste("ls -1 ",cartella,"Tmin",anno,"*.asc | grep '03\\(2\\|3\\).\\.asc'",sep="")
 #omando <- paste("ls -1 ",cartella,'Tmin',anno,'*.asc | grep "\\(04\\|05\\)..\\.asc"  -',sep="")
 print(comando)
-print(nomefile)
+cat(comando)
+
 nomefile <- readLines(pipe(comando))
+
+
+
 i<-1
 while ( i <= length(nomefile) ) {
   print(nomefile[i]) # per debug

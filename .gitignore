@@ -2,6 +2,10 @@ TEMP2m*.txt
 Tmin*.asc
 Tmed*.asc
 Tmax*.asc
+ggelo_*.asc
+ET0_20*.txt
+PRECI_20*.txt
+PRECI_20*.asc
 dati_mancanti
 lista.txt
 organizza_dati.sh
