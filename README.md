@@ -16,7 +16,7 @@ Calcolare i seguenti indici e la loro attribuzione e rappresentazione in classi 
 
     1. percentuale di anni nel periodo 2002-2019 con gelate invernali [n. di anni in cui si verica la temperatura < -10°C per almeno un giorno, durante il periodo Dicembre-gennaio-febbraio-marzo]/[anni totali]; l'indice è espresso in termini percentuali e le classi di suitability sono le seguenti: S1 (0-10%),  S2(10,01-20%), S3 (20,01-30%), S4 o N (>30%).
 
-    2. percentuale di anni nel periodo 2002-2019 con gelate tardive ultima decade di marzo [n. di anni in cui si verica la temperatura < -2°C per almeno un giorno, durante ultima decade di marzo]/[numero di anni totali]; l'indice è espresso in termini percentuali e le classi di suitability sono le seguenti: S1 (0-10%),  S2(10,01-20%), S3 (20,01-30%), S4 o N (>30%).
+    2. percentuale di anni nel periodo 2002-2019 con gelate primaverili ultima decade di marzo [n. di anni in cui si verica la temperatura < -2°C per almeno un giorno, durante ultima decade di marzo]/[numero di anni totali]; l'indice è espresso in termini percentuali e le classi di suitability sono le seguenti: S1 (0-10%),  S2(10,01-20%), S3 (20,01-30%), S4 o N (>30%).
 
     3. percentuale di anni nel periodo 2002-2019 con gelate primaverili [n. di anni in cui si verica la temperatura < -2°C per almeno un giorno, durante il periodo aprile-maggio ]/[numero di anni totali]; l'indice è espresso in termini percentuali (n. anni gelate/n. anni tot della serie) e le classi di suitability sono le seguenti: S1 (0-10%),  S2(10,01-20%), S3 (20,01-30%), S4 o N (>30%).
 
