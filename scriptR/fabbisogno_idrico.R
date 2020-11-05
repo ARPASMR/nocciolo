@@ -31,10 +31,11 @@ PP <- raster(paste(cartellaPP,"CUMULATA_MEDIA_",mese,".asc",sep=""))
 
 FABBISOGNO <- ET0*coefficiente_k[i] - PP
 
+writeRaster(FABBISOGNO, file=paste("../indici/fabbisogno",mese,".asc",sep=""), format="ascii", overwrite=TRUE)
+
 #scrivi preci mensili
 i <- i+1
 } # fine ciclo mesi
 
-writeRaster(FABBISOGNO, file="../indici/fabbisogno.asc", format="ascii", overwrite=TRUE)
 
 q()
