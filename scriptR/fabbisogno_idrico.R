@@ -33,9 +33,20 @@ FABBISOGNO <- ET0*coefficiente_k[i] - PP
 
 writeRaster(FABBISOGNO, file=paste("../indici/fabbisogno",mese,".asc",sep=""), format="ascii", overwrite=TRUE)
 
-#scrivi preci mensili
+
 i <- i+1
 } # fine ciclo mesi
 
+#somma da maggio a settembre
+
+FABBISOGNO_ANNUO <- raster("../indici/fabbisogno05.asc")
+
+for (mese in c("06","07","08","09")) {
+
+nuovo <- raster(paste("../indici/fabbisogno",mese,".asc",sep=""))
+FABBISOGNO_ANNUO<-sum(FABBISOGNO_ANNUO,nuovo)
+}
+
+writeRaster(FABBISOGNO_ANNUO, file="../indici/fabbisogno_annuo.asc", format="ascii", overwrite=TRUE)
 
 q()

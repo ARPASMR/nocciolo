@@ -56,4 +56,24 @@ writeRaster(PRECI, file=paste("../PREC/medie/CUMULATA_MEDIA_",mese,".asc",sep=""
 
 } # fine ciclo mesi
 
+#cumulata media annua
+PRECI<-raster("../PREC/medie/CUMULATA_MEDIA_01.asc")
+for (mese in c("02","03","04","05","06","07","08","09","10","11","12")) {
+  PRECInext<-raster(paste("../PREC/medie/CUMULATA_MEDIA_",mese,".asc",sep=""))
+  PRECI<-sum(PRECI,PRECInext)
+  }
+
+writeRaster(PRECI, file="../PREC/medie/CUMULATA_MEDIA_ANNUA.asc", format="ascii", overwrite=TRUE)
+
+#cumulata media aprile settembre
+PRECI<-raster("../PREC/medie/CUMULATA_MEDIA_04.asc")
+for (mese in c("05","06","07","08","09")) {
+  PRECInext<-raster(paste("../PREC/medie/CUMULATA_MEDIA_",mese,".asc",sep=""))
+  PRECI<-sum(PRECI,PRECInext)
+  }
+
+writeRaster(PRECI, file="../PREC/medie/CUMULATA_MEDIA_AMGLAS.asc", format="ascii", overwrite=TRUE)
+
+
+
 q()

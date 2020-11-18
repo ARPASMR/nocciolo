@@ -38,6 +38,8 @@ datainizio<-strptime(paste(anno,mese,"01",sep=""),"%Y%m%d")
 print("a inizio ciclo:")
 print(datainizio)
 PRECI <- raster(paste(cartella,"/ET0_",format(datainizio,"%Y%m%d"),".txt",sep=""))
+values(PRECI)[which(is.na(values(PRECI)))] <- 0
+
 #ciclo sui giorni
 for (g in 2:numero_giorni) {
   datainizio <-datainizio+60*60*24
