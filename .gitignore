@@ -1,4 +1,5 @@
 TEMP2m*.txt
+UR_20*UTCplus1.txt
 Tmin*.asc
 Tmed*.asc
 Tmax*.asc
@@ -10,4 +11,8 @@ PRECI_20*.asc
 dati_mancanti
 lista.txt
 organizza_dati.sh
+fabbisogno0*.asc
+fabbisogno1*.asc
+VDP_annuo_20*.asc
+VDP.log
 temp_med_20*.txt
