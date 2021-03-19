@@ -17,7 +17,7 @@ library(rgdal)
 #--------------------------
 
 
-cartella<-paste("../PREC/mensili/",sep="")
+cartella<-paste("../PREC/mensili_ARCIS/",sep="")
 print(cartella)
 
 for (mese in c("01","02","03","04","05","06","07","08","09","10","11","12")) {
